@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000'); // Ganti URL backend jika sudah di-deploy
+const socket = io('https://chat-backend-2lqbl1dqe-fuzi11s-projects.vercel.app/'); // Ganti URL backend jika sudah di-deploy
 
 function chatApp() {
   return {
